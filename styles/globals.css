@@ -1,16 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.carrousel {
+    height: 400px;
 }
 
-* {
-  box-sizing: border-box;
+.carousel img {
+    overflow: hidden;
+}
+
+#city-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+#city-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+#map {
+    min-height: 500px;
+    min-width: 500px;
+    height: fit-content;
+    width: fit-content;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

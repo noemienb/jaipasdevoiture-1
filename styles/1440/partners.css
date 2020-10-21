@@ -1,0 +1,5 @@
+@media screen and (min-width:1440px) {
+    #partners-logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
