@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 
-export default function KeyFigures() {
+export default function KeyFig() {
     return (
         <Card>
             <Card.Body>
@@ -17,4 +17,4 @@ export default function KeyFigures() {
             </Card.Body>
         </Card>
     )
-}
+};

@@ -1,6 +1,6 @@
 import TopNav from '../components/TopNav';
 import Presentation from '../components/Presentation';
-import KeyFigures from '../components/KeyFigures';
+import KeyFig from '../components/KeyFig';
 import Reviews from '../components/Reviews';
 import CityList from '../components/CityList';
 import Carousel from '../components/Carousel';
@@ -19,7 +19,7 @@ const Index = () => {
       <Carousel />
       <Presentation />
       <CityList />
-      <KeyFigures />
+      <KeyFig />
 
       <Reviews id={"reviews"} />
 
