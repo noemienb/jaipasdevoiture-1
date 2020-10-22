@@ -5,11 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-:root,
-main {
-    background-color: var(--deep-champagne);
-}
-
 #city-list {
     background-color: var(--persian-green);
     color: var(--baby-powder);
@@ -147,7 +142,7 @@ main {
 
 .card {
     margin: 10px;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .card-text {
@@ -187,8 +182,9 @@ main {
 #footer {
     display: flex;
     flex-direction: row;
-    font-size: 1.2em;
+    font-weight: 200;
     padding: 10px;
+    color: rgb(77, 77, 77);
 }
 
 #footer div {
