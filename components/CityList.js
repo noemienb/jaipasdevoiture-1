@@ -6,6 +6,8 @@ export default function CityList() {
         <Card>
             <Card.Body>
                 <Card.Title>Où nous trouver?</Card.Title>
+                <Card.Text>Vous pourrez trouver nos agences dans plus de 13 grandes villes de France et de
+Belgique</Card.Text>
                 <div id="city-grid">
                     <Card.Text id="city-list">
                         <div>nantes</div>
@@ -22,12 +24,12 @@ export default function CityList() {
                         <div>Dijon</div>
                         <div>Strasbourg (Bientôt)</div>
                     </Card.Text>
-                    <Card.Text>
+                    <div id="map-container">
                         <div id="map" style={{ backgroundImage: "url(/img/map.png)" }}></div>
-                    </Card.Text>
+                    </div>
                 </div>
             </Card.Body>
 
-        </Card>
+        </Card >
     )
 }

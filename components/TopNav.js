@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 export default function TopNav() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar id="top-nav" bg="light" expand="lg">
       <Navbar.Brand href="#home"><img src="/img/logos/jpdv-logo.png" alt="logo" height="100px" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

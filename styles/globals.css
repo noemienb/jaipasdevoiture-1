@@ -3,39 +3,110 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html,
-body {
-    padding: 0;
-    margin: 0;
+:root,
+main {
+    background-color: cadetblue;
 }
 
-.carrousel {
-    height: 400px;
-}
-
-.carousel img {
-    overflow: hidden;
+#basic-navbar-nav,
+#top-nav {
+    background-color: cadetblue;
+    padding: 5px;
+    font-size: 1.2em;
 }
 
 #city-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
 }
 
 #city-grid {
+    font-size: 1.2em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     justify-content: center;
-    text-align: center;
+}
+
+#map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #map {
-    min-height: 500px;
-    min-width: 500px;
+    min-height: 400px;
+    min-width: 400px;
     height: fit-content;
     width: fit-content;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#key-figures {
+    display: flex;
+    flex-direction: row;
+}
+
+#key-figures * {
+    flex: auto;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.review-text {
+    width: fit-content;
+}
+
+.card {
+    margin: 10px;
+}
+
+.carousel-caption {
+    left: 0px !important;
+    background-color: rgba(0, 0, 0, .70);
+    width: 100%;
+}
+
+#reviews .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#partners-logos {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    gap: 10px;
+}
+
+#partners-logos .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#footer div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

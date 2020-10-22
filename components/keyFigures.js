@@ -6,7 +6,7 @@ export default function keyFigures() {
         <Card>
             <Card.Body>
                 <Card.Title>Chiffres-clés</Card.Title>
-                <Card.Text>
+                <Card.Text id="key-figures">
                     <div>Plus de 100.000 clients satisfaits</div>
                     <div>157 ans</div>
                     <div>2800 véhicules</div>
