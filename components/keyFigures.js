@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 
-export default function keyFigures() {
+export default function KeyFigures() {
     return (
         <Card>
             <Card.Body>
