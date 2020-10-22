@@ -44,10 +44,10 @@ function Carrousel() {
                 <Carousel.Caption>
                     <h1>SEMI-REMORQUES</h1>
                     <p>Contactez-nous pour nous faire part de vos besoins</p>
-                    <div class="carousel-bg"></div>
+                    <div className="carousel-bg"></div>
                 </Carousel.Caption>
             </Carousel.Item>
-        </Carousel>
+        </Carousel >
     );
 }
 

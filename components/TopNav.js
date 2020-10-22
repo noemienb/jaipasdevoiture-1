@@ -3,18 +3,17 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 export default function TopNav() {
   return (
-    <Navbar id="top-nav" bg="light" expand="lg">
-      <Navbar.Brand href="#home"><img src="/img/logos/jpdv-logo.png" alt="logo" height="100px" /></Navbar.Brand>
+    <Navbar id="top-nav" bg="white" expand="lg">
+      <Navbar.Brand><img src="/img/logos/jpdv-logo.png" alt="logo" height="100px" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Réservations</Nav.Link>
-          <Nav.Link href="#link">Véhicules</Nav.Link>
-          <Nav.Link href="#link">Agences</Nav.Link>
-          <Nav.Link href="#link">Contact</Nav.Link>
+          <Nav.Link href="#link">VÉHICULES</Nav.Link>
+          <Nav.Link href="#link">ENTREPRISE</Nav.Link>
+          <Nav.Link href="#link">AGENCES</Nav.Link>
+          <Nav.Link href="#link">CONTACT</Nav.Link>
+          <Nav.Link href="#link">COVID</Nav.Link>
           <Nav.Link href="#link">FAQ</Nav.Link>
-          <Nav.Link href="#link">Entreprise</Nav.Link>
-          <Nav.Link href="#link">covid</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Recherche" className="mr-sm-2" />

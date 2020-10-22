@@ -8,10 +8,10 @@ export default function Review({ name, img, text, size }) {
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Image src={img} width={size} height={size} roundedCircle />
-                <Card.Text class="review-text">
+                <Card.Text className="review-text">
                     {text}
                 </Card.Text>
             </Card.Body>
-        </Card>
+        </Card >
     )
 }

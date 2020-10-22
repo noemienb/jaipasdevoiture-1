@@ -1,18 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('/fonts/fontawesome/css/all.css');
+@import url("./colors.css");
 :root {
     font-family: 'Roboto', sans-serif;
 }
 
 :root,
 main {
-    background-color: cadetblue;
+    background-color: var(--charcoal);
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+.card-title {
+    display: inline-block;
+    width: 25%;
+    color: var(--charcoal);
+    border-bottom: 2px solid var(--charcoal);
+    padding: 10px;
+}
+
+.btn-outline-success {
+    font-weight: 600 !important;
+    color: var(--persian-green) !important;
+    border: 2px solid var(--persian-green) !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-success:hover {
+    background-color: var(--persian-green) !important;
+    color: white !important;
+    border: 2px solid var(--persian-green) !important;
+    box-shadow: none !important;
 }
 
 #basic-navbar-nav,
 #top-nav {
-    background-color: cadetblue;
+    background-color: var(--charcoal);
+    color: var(--charcoal);
     padding: 5px;
     font-size: 1.2em;
+    display: flex;
+}
+
+.navbar a {
+    color: white !important;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid var(--charcoal);
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    color: white !important;
 }
 
 #city-list {
@@ -50,11 +94,12 @@ main {
 }
 
 #key-figures * {
+    font-size: 1.5em;
     flex: auto;
     margin: 5px;
     padding: 5px;
-    color: white;
-    background-color: cadetblue;
+    color: var(--baby-powder);
+    background-color: var(--burnt-sienna);
     text-align: center;
 }
 
@@ -64,8 +109,23 @@ main {
     flex-wrap: wrap;
 }
 
+#reviews .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#reviews .card-title {
+    font-weight: 800;
+    width: 100%;
+    color: var(--sandy-brown);
+    border-bottom: 2px solid var(--sandy-brown);
+}
+
 .review-text {
     width: fit-content;
+    font-size: 1.2em;
 }
 
 .card {
@@ -92,12 +152,14 @@ main {
     grid-template-columns: repeat(6, auto);
     align-items: center;
     gap: 10px;
+    object-fit: contain;
 }
 
 #partners-logos .card-body {
     display: flex;
     align-items: center;
     justify-content: center;
+    object-fit: contain;
 }
 
 #footer {
