@@ -7,7 +7,21 @@
 
 :root,
 main {
-    background-color: var(--charcoal);
+    background-color: var(--deep-champagne);
+}
+
+#city-list {
+    background-color: var(--persian-green);
+    color: var(--baby-powder);
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 * {
@@ -17,29 +31,29 @@ main {
 .card-title {
     display: inline-block;
     width: 25%;
-    color: var(--charcoal);
-    border-bottom: 2px solid var(--charcoal);
+    color: var(--paradise-pink);
+    border-bottom: 2px solid var(--paradise-pink);
     padding: 10px;
 }
 
 .btn-outline-success {
     font-weight: 600 !important;
-    color: var(--persian-green) !important;
-    border: 2px solid var(--persian-green) !important;
+    color: var(--white) !important;
+    border: 2px solid var(--white) !important;
     box-shadow: none !important;
 }
 
 .btn-outline-success:hover {
-    background-color: var(--persian-green) !important;
-    color: white !important;
+    background-color: var(--white) !important;
+    color: var(--persian-green) !important;
     border: 2px solid var(--persian-green) !important;
     box-shadow: none !important;
 }
 
 #basic-navbar-nav,
 #top-nav {
-    background-color: var(--charcoal);
-    color: var(--charcoal);
+    background-color: var(--persian-green);
+    color: var(--persian-green);
     padding: 5px;
     font-size: 1.2em;
     display: flex;
@@ -50,27 +64,30 @@ main {
     flex: 1;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid var(--charcoal);
 }
 
 .navbar a:hover {
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    color: white !important;
+    background-color: white;
+    color: var(--persian-green) !important;
 }
 
-#city-list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-    justify-content: center;
+.city-name {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
 }
 
 #city-grid {
     font-size: 1.2em;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
     justify-content: center;
+}
+
+#presentation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
 }
 
 #map-container {
@@ -80,6 +97,7 @@ main {
 }
 
 #map {
+    margin: 10px;
     min-height: 400px;
     min-width: 400px;
     height: fit-content;
@@ -99,7 +117,7 @@ main {
     margin: 5px;
     padding: 5px;
     color: var(--baby-powder);
-    background-color: var(--burnt-sienna);
+    background-color: var(--paradise-pink);
     text-align: center;
 }
 
@@ -119,8 +137,6 @@ main {
 #reviews .card-title {
     font-weight: 800;
     width: 100%;
-    color: var(--sandy-brown);
-    border-bottom: 2px solid var(--sandy-brown);
 }
 
 .review-text {
@@ -130,6 +146,10 @@ main {
 
 .card {
     margin: 10px;
+}
+
+.card-text {
+    margin-left: 10px;
 }
 
 .carousel-caption {
@@ -163,12 +183,13 @@ main {
 }
 
 #footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    padding: 10px;
 }
 
 #footer div {
+    flex: 1;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }

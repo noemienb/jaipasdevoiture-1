@@ -10,19 +10,21 @@ export default function CityList() {
 Belgique</Card.Text>
                 <div id="city-grid">
                     <Card.Text id="city-list">
-                        <div>nantes</div>
-                        <div>Limoges</div>
-                        <div>Tours</div>
-                        <div>Reims</div>
-                        <div>Lille</div>
-                        <div>Liège</div>
-                        <div>Mâcon</div>
-                        <div>Montauban</div>
-                        <div>Quimper</div>
-                        <div>Caen</div>
-                        <div>Le Havre</div>
-                        <div>Dijon</div>
-                        <div>Strasbourg (Bientôt)</div>
+                        <div className="city-name">MONTAUBAN</div>
+                        <div className="city-name">LIMOGES</div>
+                        <div className="city-name">NANTES</div>
+                        <div className="city-name">TOURS</div>
+                        <div className="city-name">QUIMPER</div>
+                        <div className="city-name">LE HAVRE</div>
+                        <div className="city-name">REIMS</div>
+                        <div className="city-name">LILLE</div>
+                        <div className="city-name">LIÈGE</div>
+                        <div className="city-name">MÂCON</div>
+                        <div className="city-name">CAEN</div>
+                        <div className="city-name">DIJON</div>
+                        <div><em>et bientôt</em></div>
+                        <div><em>...</em></div>
+                        <div className="city-name">STRASBOURG!</div>
                     </Card.Text>
                     <div id="map-container">
                         <div id="map" style={{ backgroundImage: "url(/img/map.png)" }}></div>
