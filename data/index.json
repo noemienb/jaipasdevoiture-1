@@ -1,4 +1,10 @@
 {
+    "titles": {
+        "presentation": "Qui somme-nous?",
+        "cityList": "Où nous trouver?",
+        "form": "Nous Contacter",
+        "partners": "Ils nous font confiance"
+    },
     "logo": "/img/logos/jpdv-logo.png",
     "carousel": [{
             "img": "/img/cars/car-1.jpg",
@@ -115,5 +121,21 @@
     }, {
         "img": "img/logos/02.png",
         "alt": "eluma trans"
-    }]
+    }],
+    "reviews": [{
+            "name": "Adeline",
+            "img": "/img/customers/adeline.jpg",
+            "text": "Un accueil irréprochable par une équipe toujours souriante et agréable ! Et des véhicules toujours nickel !"
+        },
+        {
+            "name": "François",
+            "img": "/img/customers/françois.jpg",
+            "text": "Belle flotte de véhicules. Accueil personnalisé et service professionnel. Facilité de mise à disposition et de restitution du véhicule."
+        },
+        {
+            "name": "Astrid",
+            "img": "/img/customers/astrid.jpg",
+            "text": "Accueil formidable à chaque fois ! En plus d'avoir des voitures impeccables et des prix corrects ! Je recommande."
+        }
+    ]
 }

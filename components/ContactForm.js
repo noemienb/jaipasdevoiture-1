@@ -2,11 +2,11 @@ import React from 'react'
 
 import { Card, Form, Button } from 'react-bootstrap';
 
-export default function ContactForm() {
+export default function ContactForm({ title }) {
     return (
         <Card>
             <Card.Body>
-                <Card.Title>Nous Contacter</Card.Title>
+                <Card.Title>{title}</Card.Title>
                 <Form>
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Nom</Form.Label>

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 
-export default function CityList({ cities, map }) {
+export default function CityList({ title, cities, map }) {
     return (
         <Card>
             <Card.Body>
-                <Card.Title>Où nous trouver?</Card.Title>
+                <Card.Title>{title}</Card.Title>
                 <Card.Text>Vous pourrez trouver nos agences dans plus de 13 grandes villes de France et de
 Belgique</Card.Text>
                 <div id="city-grid">

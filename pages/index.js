@@ -10,7 +10,7 @@ import ContactForm from '../components/ContactForm';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { carousel, cities, map, presentation, keyFigures, contacts, navbar, logo, partners } from '../data/index.json';
+import { reviews, titles, carousel, cities, map, presentation, keyFigures, contacts, navbar, logo, partners } from '../data/index.json';
 
 const Index = () => {
 
@@ -19,15 +19,18 @@ const Index = () => {
       <TopNav menus={navbar} logo={logo} />
 
       <Carousel data={carousel} />
-      <Presentation presentation={presentation} />
-      <CityList cities={cities} map={map} />
+
+      <Presentation presentation={presentation} title={titles.presentation} />
+
+      <CityList cities={cities} map={map} title={titles.cityList} />
+
       <KeyFig keyFigures={keyFigures} />
 
-      <Reviews id={"reviews"} />
+      <Reviews reviews={reviews} />
 
-      <Partners partners={partners} />
+      <Partners partners={partners} title={titles.partners} />
 
-      <ContactForm />
+      <ContactForm title={titles.form} />
 
       <Footer contacts={contacts} />
     </main>
