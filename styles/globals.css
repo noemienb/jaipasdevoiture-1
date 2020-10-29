@@ -5,6 +5,7 @@
 @import url("./1024.css");
 @import url("./768.css");
 @import url("./360.css");
+@import url("./xs.css");
 :root {
     font-family: 'Roboto', sans-serif;
 }
