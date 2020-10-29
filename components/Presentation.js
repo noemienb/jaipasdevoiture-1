@@ -7,7 +7,7 @@ export default function Presentation({ presentation }) {
             <Card.Body>
                 <Card.Title>Qui sommes-nous?</Card.Title>
                 <Card.Text id="presentation-text">
-                    {presentation.map((p, i) => <div key={i}>{p}</div>)}
+                    {presentation.map((p, i) => <span key={i}>{p}</span>)}
                 </Card.Text>
             </Card.Body>
         </Card>

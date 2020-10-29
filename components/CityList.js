@@ -11,7 +11,7 @@ Belgique</Card.Text>
                 <div id="city-grid">
                     <div className="container">
                         <Card.Text id="city-list">
-                            {cities.map((city, i) => <div key={i} className="city-name">{city.toUpperCase()}</div>
+                            {cities.map((city, i) => <span key={i} className="city-name">{city.toUpperCase()}</span>
                             )}
                         </Card.Text>
                     </div>
