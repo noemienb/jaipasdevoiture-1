@@ -17,7 +17,7 @@ Belgique</Card.Text>
                     </div>
                     <div className="container">
                         <div id="map-container">
-                            <div id="map" style={{ backgroundImage: "url(" + map + ")" }}></div>
+                            <img id="map" src={map} />
                         </div>
                     </div>
                 </div>
