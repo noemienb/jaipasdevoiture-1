@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('/fonts/fontawesome/css/all.css');
 @import url("./colors.css");
+@import url("./1440.css");
+@import url("./1024.css");
+@import url("./768.css");
+@import url("./360.css");
 :root {
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +16,6 @@
     font-weight: 800;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -24,8 +27,8 @@
 }
 
 .card-title {
-    display: inline-block;
-    width: 25%;
+    font-weight: 800;
+    width: 100%;
     color: var(--paradise-pink);
     border-bottom: 2px solid var(--paradise-pink);
     padding: 10px;
@@ -51,7 +54,6 @@
     color: var(--persian-green);
     padding: 5px;
     font-size: 1.2em;
-    display: flex;
 }
 
 .navbar a {
@@ -76,6 +78,7 @@
     font-size: 1.2em;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #presentation-text {
@@ -104,22 +107,21 @@
 
 #key-figures {
     display: flex;
-    flex-direction: row;
 }
 
-#key-figures * {
+.keyFigure {
+    text-align: center;
+    align-self: center;
     font-size: 1.5em;
     flex: auto;
     margin: 5px;
     padding: 5px;
     color: var(--baby-powder);
     background-color: var(--paradise-pink);
-    text-align: center;
 }
 
 #reviews {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -128,11 +130,6 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}
-
-#reviews .card-title {
-    font-weight: 800;
-    width: 100%;
 }
 
 .review-text {
@@ -167,7 +164,6 @@
 
 #partners-logos {
     display: grid;
-    grid-template-columns: repeat(6, auto);
     align-items: center;
     gap: 10px;
     object-fit: contain;
@@ -182,13 +178,37 @@
 
 #footer {
     display: flex;
-    flex-direction: row;
     font-weight: 200;
     padding: 10px;
     color: rgb(77, 77, 77);
+    align-items: center;
 }
 
 #footer div {
     flex: 1;
-    text-align: center;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

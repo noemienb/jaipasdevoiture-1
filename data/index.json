@@ -1,0 +1,119 @@
+{
+    "logo": "/img/logos/jpdv-logo.png",
+    "carousel": [{
+            "img": "/img/cars/car-1.jpg",
+            "title": "VOITURES . 12€/J",
+            "text": "300€ de caution. Assurance supplémentaire optionnel"
+        },
+        {
+            "img": "/img/cars/bike-1.jpg",
+            "title": "VELOS . 8€/J",
+            "text": "Pas de caution. Location de casque gratuite"
+        },
+        {
+            "img": "/img/cars/camionnette-1.jpg",
+            "title": "CAMIONETTES 30€/J",
+            "text": "500€ de caution. Assurance supplémentaire optionnel"
+        },
+        {
+            "img": "/img/cars/semi-remorque-1.jpg",
+            "title": "SEMI-REMORQUES",
+            "text": "Contactez-nous pour nous faire part de vos besoins"
+        }
+    ],
+    "cities": [
+        "montauban",
+        "limoges",
+        "nantes",
+        "tours",
+        "quimper",
+        "le havre",
+        "reims",
+        "lille",
+        "liège",
+        "mâcon",
+        "caen",
+        "dijon",
+        "strasbourg"
+    ],
+    "map": "/img/map.png",
+    "presentation": [
+        "Créé en 1863, Jaipasdevoiture est une entreprise familiale de location de véhicule.",
+
+        "Avant tout orienté vers la satisfaction du client, notre société s’ est toujours efforcé de proposer un service personnalisé et de qualité.",
+
+        "Nous nous somme toujours adapté à chaque changement des habitudes de consommation de nos clients.",
+
+        "Jaipasdevoiture c’ est plus de 2800 véhicules, de la voiture de tourisme au camion semi - remorque en passant par le vélo électrique.",
+
+        "Tout ce qu’ il faut quelque soit votre besoin ou vos envies."
+    ],
+    "keyFigures": [
+        "Plus de 100.000 clients satisfaits",
+        "157 ans",
+        "2800 véhicules",
+        "50 employés",
+        "13 agences",
+        "1 passion "
+    ],
+    "contacts": [{
+            "name": "téléphone",
+            "icon": "fa-phone",
+            "text": "+33606060606"
+        },
+        {
+            "name": "mail",
+            "icon": "fa-home",
+            "text": "Rue des bonnes affaires - 75000 Paris"
+        },
+        {
+            "name": "adresse",
+            "icon": "fa-at",
+            "text": "contact@jaipasdevoiture.com"
+        }
+    ],
+    "navbar": [{
+            "link": "#link",
+            "label": "véhicules"
+        },
+        {
+            "link": "#link",
+            "label": "entreprise"
+        },
+        {
+            "link": "#link",
+            "label": "agences"
+        },
+        {
+            "link": "#link",
+            "label": "contact"
+        },
+        {
+            "link": "#link",
+            "label": "covid"
+        },
+        {
+            "link": "#link",
+            "label": "faq"
+        }
+    ],
+    "partners": [{
+        "img": "img/logos/06.png",
+        "alt": "upply"
+    }, {
+        "img": "img/logos/04.png",
+        "alt": "kompass"
+    }, {
+        "img": "img/logos/01.png",
+        "alt": "déménageurs bretons"
+    }, {
+        "img": "img/logos/05.png",
+        "alt": "système u"
+    }, {
+        "img": "img/logos/03.png",
+        "alt": "gpc logistics"
+    }, {
+        "img": "img/logos/02.png",
+        "alt": "eluma trans"
+    }]
+}

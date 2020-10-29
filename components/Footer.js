@@ -3,12 +3,17 @@ import { Card, CardColumns } from 'react-bootstrap';
 
 import Review from './Review';
 
-export default function Footer({ id }) {
+export default function Footer({ contacts }) {
     return (
-        <Card id="footer">
-            <div className="fa fa-phone"> +33606060606</div>
-            <div className="fa fa-home"> Rue des bonnes affaires - 75000 Paris</div>
-            <div className="fa fa-at" > contact@jaipasdevoiture.com</div>
-        </Card >
+        <Card id="footer" className="">
+            {
+                contacts.map((c, i) => <div key={i} className="row container">
+                    <span className={"m-10 fa " + c.icon}></span>
+                    <span className="m-10">{c.name}:</span>
+                    <span className="m-10">{c.text}</span>
+                </div>
+                )
+            }
+        </Card>
     )
 }

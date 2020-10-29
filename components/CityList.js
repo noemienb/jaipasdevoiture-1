@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 
-export default function CityList() {
+export default function CityList({ cities, map }) {
     return (
         <Card>
             <Card.Body>
@@ -9,25 +9,16 @@ export default function CityList() {
                 <Card.Text>Vous pourrez trouver nos agences dans plus de 13 grandes villes de France et de
 Belgique</Card.Text>
                 <div id="city-grid">
-                    <Card.Text id="city-list">
-                        <div className="city-name">MONTAUBAN</div>
-                        <div className="city-name">LIMOGES</div>
-                        <div className="city-name">NANTES</div>
-                        <div className="city-name">TOURS</div>
-                        <div className="city-name">QUIMPER</div>
-                        <div className="city-name">LE HAVRE</div>
-                        <div className="city-name">REIMS</div>
-                        <div className="city-name">LILLE</div>
-                        <div className="city-name">LIÈGE</div>
-                        <div className="city-name">MÂCON</div>
-                        <div className="city-name">CAEN</div>
-                        <div className="city-name">DIJON</div>
-                        <div><em>et bientôt</em></div>
-                        <div><em>...</em></div>
-                        <div className="city-name">STRASBOURG!</div>
-                    </Card.Text>
-                    <div id="map-container">
-                        <div id="map" style={{ backgroundImage: "url(/img/map.png)" }}></div>
+                    <div className="container">
+                        <Card.Text id="city-list">
+                            {cities.map((city, i) => <div key={i} className="city-name">{city.toUpperCase()}</div>
+                            )}
+                        </Card.Text>
+                    </div>
+                    <div className="container">
+                        <div id="map-container">
+                            <div id="map" style={{ backgroundImage: "url(" + map + ")" }}></div>
+                        </div>
                     </div>
                 </div>
             </Card.Body>

@@ -1,0 +1,20 @@
+@media (min-width:1440px) {
+    #city-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #city-grid {
+        flex-direction: row;
+    }
+    #key-figures {
+        flex-direction: row;
+    }
+    #partners-logos {
+        grid-template-columns: repeat(6, auto);
+    }
+    #footer {
+        flex-direction: row;
+    }
+    #reviews {
+        flex-direction: row;
+    }
+}

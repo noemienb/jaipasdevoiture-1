@@ -10,25 +10,26 @@ import ContactForm from '../components/ContactForm';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { carousel, cities, map, presentation, keyFigures, contacts, navbar, logo, partners } from '../data/index.json';
+
 const Index = () => {
 
   return (
     <main>
-      <TopNav />
+      <TopNav menus={navbar} logo={logo} />
 
-      <Carousel />
-      <Presentation />
-      <CityList />
-      <KeyFig />
+      <Carousel data={carousel} />
+      <Presentation presentation={presentation} />
+      <CityList cities={cities} map={map} />
+      <KeyFig keyFigures={keyFigures} />
 
       <Reviews id={"reviews"} />
 
-
-      <Partners />
+      <Partners partners={partners} />
 
       <ContactForm />
 
-      <Footer />
+      <Footer contacts={contacts} />
     </main>
   );
 

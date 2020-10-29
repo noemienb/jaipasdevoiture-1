@@ -1,0 +1,23 @@
+@media (min-width:768px) and (max-width:1024px) {
+    #city-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #city-grid {
+        flex-direction: column;
+    }
+    #key-figures {
+        flex-direction: column;
+    }
+    #partners-logos {
+        grid-template-columns: repeat(4, auto);
+    }
+    #footer {
+        flex-direction: column;
+    }
+    #reviews {
+        flex-direction: column;
+    }
+    .keyFigure {
+        width: 100%;
+    }
+}
