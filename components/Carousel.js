@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { Carousel } from 'react-bootstrap';
 
-function Carrousel({ data }) {
+function Carrousel({ carousel }) {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex, e) => {
@@ -11,7 +11,7 @@ function Carrousel({ data }) {
 
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} id="carousel">
-            { data.map((item, i) => {
+            { carousel.map((item, i) =>
                 <Carousel.Item key={i}>
                     <img className="d-block w-100" src={item.img} alt="carousel item" />
                     <Carousel.Caption>
@@ -19,7 +19,7 @@ function Carrousel({ data }) {
                         <p>{item.text}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            })}
+            )}
         </Carousel>
     );
 }

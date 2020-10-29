@@ -18,7 +18,7 @@ const Index = () => {
     <main>
       <TopNav menus={navbar} logo={logo} />
 
-      <Carousel data={carousel} />
+      <Carousel carousel={carousel} />
 
       <Presentation presentation={presentation} title={titles.presentation} />
 
