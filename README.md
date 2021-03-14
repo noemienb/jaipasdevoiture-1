@@ -12,4 +12,4 @@ Site vitrine d'une agence de location de voiture.
 
 - Maquettage : [Figma](https://www.figma.com/)
 
-[lien]("https://jaipasdevoiture-puce.vercel.app/")
+[lien](https://jaipasdevoiture-puce.vercel.app/)
